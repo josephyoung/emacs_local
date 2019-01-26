@@ -69,7 +69,7 @@
 ;;   "Magit coding-system-error cp65001 fix."
 ;;   (interactive)
 (unless (cl-member 'cp65001 coding-system-list)
-  (define-coding-system-alias 'cp65001 'utf-8))
+  (define-coding-system-alias 'cp65001 'utf-8-unix))
 ;; (global-set-key (kbd "<f8>") 'magit-fix-coding)
 
 
